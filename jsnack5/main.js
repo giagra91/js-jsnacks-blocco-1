@@ -11,3 +11,6 @@ for (let i=0; i < 7; i++){
     }
 }
 
+// Modifica elementi del DOM per inserimento output
+document.getElementById("output").innerHTML=`I numeri presenti ora nell'array sono: ` + userNumber;
+
